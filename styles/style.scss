@@ -1,0 +1,46 @@
+// !important özelliği baskın hale getirip kullandırır.
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    background:linear-gradient(112deg,rgb(50, 61,61) 9%,rgb(148,148,194)91%);
+}
+
+.nav-item a:hover{
+    transform: scale(1.1);
+    transition: ease .5s;
+    color: gray !important;
+}
+
+// SLİDER 
+
+.carousel{     
+     
+    img{
+        border-radius: 50%;
+        height: 450px;
+        object-fit: cover;
+        opacity: 0.8;
+    }
+  
+}
+.card{
+    &:hover{
+        box-shadow: 2px 2px 15px rgb(192, 185, 185);
+        transform: scale(1.05);
+        transition: ease .7s;
+    }
+}
+// TİTLE
+
+.title{
+    background:linear-gradient(115deg , rgb(34,34,34) 7%,rgb(0, 40, 60) 51% ,rgb(0, 143, 213) 93%);
+
+    .breadcrumb-item::before{
+        color:white;
+    }
+}
+.accordion{
+    background:linear-gradient(to left, rgb(77, 126,190,0.767), rgb(142,164,206, 0.623) );
+}
